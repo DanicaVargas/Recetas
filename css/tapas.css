@@ -1,7 +1,7 @@
 * { margin: 1px; padding: 0px; }
 body
 {
-    background-image: url("imagenes/fondo_tapas.jpg");
+    background-image: url("../imagenes/fondo_tapas.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
