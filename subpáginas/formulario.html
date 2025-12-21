@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Peididos Online</title>
+</head>
+
+<body style="font-family: 'Times New Roman', Times, serif;">
+
+    <form method="get" action="">
+        <form method="get" action="">
+
+            <h2>Pedido de pizza</h2>
+            <fieldset>
+                <legend>La pizza</legend>
+                <p>Ingredientes<br>
+                    <label><input type="radio" name="hm" value="h" required> Queso</label><br>
+                    <label><input type="radio" name="hm" value="m" required> Pimiento</label><br>
+                    <label><input type="radio" name="hm" value="o" required> Cebolla</label><br>
+                </p>
+
+                <p>Tamaño<br>
+                    <label><input type="radio" name="hm" value="h" required> Hombre</label><br>
+                    <label><input type="radio" name="hm" value="m" required> Mujer</label><br>
+                    <label><input type="radio" name="hm" value="o" required> Otros</label><br>
+                </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos de entrega</legend>
+                <p><label>Nombre:<input type="text" name="Nombre" size="20" placeholder="Escribe tu Nombre"></label></p>
+
+                <p><label>Dirección:<input type="text" name="Dirección" size="20"
+                            placeholder="Escribe tu Dirección"></label></p>
+                <p><label>Teléfono:<input type="tel" name="telefono" size="20" maxlength="9"
+                            placeholder="123456789"></label></p>
+                <p><label>Instrucciones especiales:<br>
+                        <textarea name="comentarios" rows="8" cols="60"></textarea>
+                    </label></p>
+            </fieldset>
+
+
+
+            <fieldset>
+                <legend>Método de pago</legend>
+                <select name="pago">
+                    <option value="efectivo">Efectivo</option>
+                    <option value="tarjeta">Tarjeta</option>
+                    <option value="paypal">Paypal</option>
+
+                </select>
+            </fieldset>
+            <br>
+            <button type="submit">Ok</button>
+            <button type="button" ><a href="index.html">Volver</a>
+                    
+            </button>
+
+
+
+
+        </form>
+    </form>
+
+
+</body>
+
+</html>

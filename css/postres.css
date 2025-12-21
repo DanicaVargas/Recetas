@@ -1,0 +1,141 @@
+* { margin: 1px; padding: 0px; }
+body
+{
+    background-image: url("../imagenes/fondo_postres.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+#page
+{
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+header
+{
+  background-color: #FFF1E6;
+  color: #6B4226;
+  border: 6px solid #A9746E;
+  padding: 25px;
+  font-size: 20px ;
+  background-position: 25px center;
+  margin: 0 40px;
+
+}
+
+header h1 
+{
+  font-size: 30px;
+  color: brown;
+}
+
+nav 
+{
+  
+  padding: 10px;
+  margin: 15px auto;
+  width: 60%;
+  
+
+}
+
+nav ul 
+{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  
+}
+
+nav a 
+{
+  padding: 8px 15px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 0;
+  background-color: #F5C16C;
+  color: #4B2E2B;
+  
+  
+}
+nav a:hover 
+{
+   background-color: pink;
+}
+
+main 
+{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 40px;
+
+}
+
+article 
+{   
+
+  width: 250px;
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  border: 3px solid #4B2E2B;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+article:hover 
+{
+  transform: scale(1.08); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+}
+article h1
+{
+    color:#4B2E2B;
+    text-decoration:double;
+}
+
+article img 
+{
+    width: 150px;
+    border-radius: 10px;
+}
+button 
+{
+    font-size: 18px; 
+    padding: 10px 20px; 
+    background-color: white;
+    color: #4B2E2B;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 30px;
+    font-weight: bold;
+    text-decoration: none;
+}
+button.volver:hover 
+{
+    background-color: rgb(58, 207, 44);
+    color: white;
+}
+
+footer 
+{
+  
+  padding: 10px;
+  margin-top: 30px;
+  border: 6px solid #A9746E;
+  background-color: #FFF1E6;
+  color: #6B4226;
+  
+}
